@@ -1,0 +1,60 @@
+/* for mobile responsive */
+@media only screen and (max-width: 426px){
+    .achivement-img-bg {
+        min-height: 225px;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .achivement-img-bg {
+        min-height: 200px;
+    }
+}
+
+@media only screen and (max-width: 321px){
+    .achivement-img-bg {
+        min-height: 175px;
+    }
+}
+
+.dok-wrapper {
+    background-color: #004caa;
+    padding: 20px 0;
+}
+
+.gallery-wrapper {
+    background-color: #004caa;
+    padding: 20px 0;
+    height: "100%";
+}
+
+.pembungkus{
+    margin-bottom: 120px;
+}
+
+@media (max-width: 768px) {
+    .hero-slide-right {
+    font-size: 16px;
+    padding: 0 20px;
+    }
+    .banner-animate {
+    margin: 0 auto;
+    max-width: 90%;
+    }
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
